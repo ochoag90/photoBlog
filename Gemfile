@@ -68,3 +68,5 @@ gem "mini_magick"
 gem 'fog'
 gem 'figaro'
 gem 'unf'
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.1.1'

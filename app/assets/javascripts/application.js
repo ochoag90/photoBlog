@@ -13,4 +13,17 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
 //= require_tree .
+
+
+// $(window).scroll(function(){
+//   $("#header-follow").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+// });
+// var totaltext = "";
+// for (var i = 0; i < 100; i++) {
+//   totaltext += "scroll!<br />";
+// } 
+
