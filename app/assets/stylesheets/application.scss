@@ -71,29 +71,40 @@
 }
 
 .style_image {
-  margin-top: 30px;
-  width: 20%;
-  display:inline-block;
-  border-radius: 20%;
-  box-shadow: 0 0 16px 8px #777a7f;
+  margin: 20px;
+  max-width: 100%;
+  height: auto; 
+
+  // display:inline-block;
+  // border-radius: ;
+  // box-shadow: 0 0 16px 8px #777a7f;
+  // min-width: 25%;
+  // min-height: 25%
 }
 
-.profile-picture {
-  padding: 25px;
+.img-display {
   height: 400px;
-  width: 100%;
+  max-width:100%;
+}
+
+.grid-container {
+  // display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #0cbbd5;
+  padding: 10px;  
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: 30px;
   text-align: center;
-  opacity: .95;
+  // transform:rotate(10deg);
+  overflow:hidden;
 }
 
-.grid-layout li {
-  width: 100px;
-  float: left;
-  margin: 10px;
-}
-
-@support (display:grid) {
-
+.carousel0 {
+background-color: #343a40
 }
 
 ::-webkit-scrollbar {
